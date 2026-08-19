@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ENVIRONMENT: staging
-      BASE_URL: https://your-staging-url.com
+      PLAYWRIGHT_SERVICE_URL: ${{ vars.PLAYWRIGHT_SERVICE_URL }}
 
     steps:
       - uses: actions/checkout@v4
