@@ -32,7 +32,7 @@ const poManager = new POManager(page);
     const orderID = await orderConfirmationPage.getOrderId();
     await orderDetailsPage.openOrderDetails(orderID);
     await orderDetailsPage.verifyOrderDetails(orderID);
-
+//test
 
 });
 }
